@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import ChiSono from "./components/ChiSono";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [selectedSection, setSelectedSection] = useState("about");
+    const [selectedExperience, setSelectedExperience] = useState("all");
+
+    return (
+        <div className="font-sans">
+            <Navbar
+                selectedSection={selectedSection}
+                setSelectedSection={setSelectedSection}
+                selectedExperience={selectedExperience}
+                setSelectedExperience={setSelectedExperience}
+            />
+
+            {selectedSection === "about" && <ChiSono />}
+            {selectedSection === "education" && <Education />}
+            {selectedSection === "experience" && (
+                <Experience selectedExperience={selectedExperience} />
+            )}
+        </div>
+    );
 }
 
 export default App;

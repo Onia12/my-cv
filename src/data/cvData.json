@@ -1,0 +1,64 @@
+{
+  "name": "Mario Rossi",
+  "title": "Full Stack Developer",
+  "education": [
+    {
+      "school": "Istituto Superiore Statale Carlo Anti, Villafranca (VR)",
+      "degree": "Diploma di Informatica",
+      "date": "3 Luglio 2023"
+    }
+  ],
+  "skills": {
+    "main": [
+      "Full Stack Developer",
+      "SQL", "PHP", "Java",
+      "HTML", "CSS", "JavaScript", "TypeScript"
+    ],
+    "frontend": [
+      "Sviluppo interfacce responsive",
+      "Analisi esigenze utente",
+      "Realizzazione UI dinamiche"
+    ],
+    "backend": [
+      "Progettazione DB (modello concettuale/logico/fisico)",
+      "SQL avanzato, manipolazione dati",
+      "Tecnologie XML/XSD/XSLT",
+      "Sviluppo web dinamico"
+    ],
+    "systems": [
+      "Modelli TCP/IP e ISO/OSI",
+      "Sicurezza informatica e crittografia",
+      "Cisco Packet Tracer"
+    ],
+    "development": [
+      "Analisi e sviluppo applicazioni",
+      "Installazione e test software",
+      "Tecnologie moderne client/server"
+    ]
+  },
+  "experiences": [
+    {
+      "role": "Sviluppatore software",
+      "company": "QOTA",
+      "period": "09/2024 - in corso",
+      "details": [
+        "Sviluppo full-stack in Angular",
+        "Gestione interfacce, REST API, logiche business",
+        "Automazione avanzata in Excel e VBA",
+        "Apprendimento rapido di nuove tecnologie"
+      ]
+    },
+    {
+      "role": "Analizzatore di tempi",
+      "company": "CTE SpA",
+      "period": "02/2024 - 09/2024",
+      "details": [
+        "Gestione scadenze e problem solving",
+        "Utilizzo avanzato di Excel",
+        "Uso software gestionali aziendali",
+        "Reportistica complessa",
+        "Formazione Kaizen e Sicurezza sul lavoro"
+      ]
+    }
+  ]
+}
